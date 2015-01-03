@@ -1,0 +1,25 @@
+{
+  "name": "Note Me",
+  "version": "1.2",
+  "description": "Looking for a notes application that not just takes your notes, but also lets you add location, picture them when you need to? Well, look no more!",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/icons/nt60.png",
+	"128": "/icons/nt128.png",
+	"256": "/icons/nt256.png"
+  },
+  "developer": {
+    "name": "Parag Das",
+    "url": "https://paragbd.com"
+  },
+  "default_locale": "en",
+  "orientation": "portrait",
+  "permissions": {
+    "desktop-notification": {
+	 "description": "Used to locate."
+	},
+    "geolocation": {
+      "description": "Used to locate."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/**
+ * Oirginal appbar overriding
+ */
+x-appbar {
+  background-color: #2C3431;
+}
+
+x-appbar > button:hover {
+  background-color: #67809F;
+}
+
